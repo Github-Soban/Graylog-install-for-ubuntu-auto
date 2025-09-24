@@ -89,7 +89,27 @@ Docker and Compose: Consider containerizing the stack. Expose ports and networks
 
 Key Configuration Differences
 Scenario	Primary Setting	Firewall Requirement
+
+
 LAN	http_bind_address = 0.0.0.0:9000	Open HTTP/HTTPS to network
 Localhost	http_bind_address = 127.0.0.1:9000	None (default permit)
 
 Both use the same basic script; only adjust the parameters for network accessibility and service binding as required for your environment.
+
+
+
+
+How to Use This Script
+
+    Save the above as graylog-runner.sh
+    
+
+    Make it executable: chmod +x graylog-runner.sh
+
+
+    Run it as a user with sudo privileges: ./graylog-runner.sh
+
+
+    Use the menu to start, stop, restart, or check the status of all services easily.
+
+
