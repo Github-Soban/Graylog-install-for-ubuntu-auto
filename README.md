@@ -3,8 +3,11 @@ install graylog fully automated one click install and easy to step but only for 
 
 graylog-automation-setup/
 │
+
 ├── README.md
+
 ├── install_graylog.sh
+
 └── configs/
     ├── nginx-graylog.conf
     ├── rsyslog-client.conf
@@ -18,4 +21,6 @@ This repository contains a Bash script to automate the installation and setup of
 ## Installation
 
 Clone the repository and run the installer:
+
+
 
