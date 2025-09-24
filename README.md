@@ -24,3 +24,32 @@ Clone the repository and run the installer:
 
 
 
+git clone https://github.com/your-username/graylog-automation-setup.git
+
+cd graylog-automation-setup
+
+chmod +x install_graylog.sh
+
+sudo ./install_graylog.sh
+
+
+
+
+## Features
+- Installs OpenJDK, Elasticsearch, MongoDB, Graylog
+- Configures Graylog with password and secret keys
+- Adds Nginx as a reverse proxy
+- Provides example configs for Ubuntu and Windows clients
+
+
+
+
+
+Instructions:
+
+    Save as graylog-setup.sh
+
+    chmod +x graylog-setup.sh
+
+    sudo ./graylog-setup.sh
+
